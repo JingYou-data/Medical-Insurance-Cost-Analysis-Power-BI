@@ -1,4 +1,35 @@
-# Medical-Insurance-Cost-Analysis-Power-BI
+# 🏥 Medical Insurance Cost Strategic Intelligence
+> **An end-to-end Data Analytics solution exploring behavioral and demographic drivers of medical expenses for 1,338 individuals using Power BI and DAX.**
+
+---
+
+## 🎥 Project Demo
+* **[🚀 Live Interactive Dashboard](这里粘贴你的PowerBI分享链接)**
+* **Video Walkthrough:** Found in `/Media/capstone_video.mp4`
+
+---
+
+## 🛠️ Data Engineering & Pipeline
+Before visualization, I performed data profiling and extensive ETL to ensure data quality:
+
+* **Data Scale:** Analyzed **1,338 records** across 7 key dimensions.
+* **Cleaning Logic:**
+    * Verified demographic features and identified behavioral patterns.
+    * Ensured data integrity for medical charges billed.
+
+---
+
+## 🧮 Technical Implementation (DAX & Modeling)
+
+### 1. Core Business Logic
+
+
+Established explicit measures to ensure calculation accuracy and report performance. Utilized DAX to perform row-level precision for total and average cost metrics.
+
+```dax
+Total Charges = SUM ( insurance[charges] )
+
+Average Charges = AVERAGE ( insurance[charges] )# Medical-Insurance-Cost-Analysis-Power-BI
 
 ❀ Project Objective
 
